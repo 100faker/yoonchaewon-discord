@@ -24,7 +24,7 @@ async def on_message(message):
   if message.content == "설윤아 안녕":
     await message.channel.send(message.author.nick + "님 안녕하세요. 저는 NMIXX 설윤입니다!")
 
-@bot.command()
+@client.command()
 async def join(ctx)
 	if ctx.author.voice and ctx.author.voice.channel:
     	channel = ctx.author.voice.channel

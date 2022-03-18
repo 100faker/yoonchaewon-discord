@@ -24,6 +24,8 @@ async def on_message(message):
   if message.content == "설윤아 안녕":
     await message.channel.send(message.author.nick + "님 안녕하세요. 저는 NMIXX 설윤입니다!")
 
+  if message.content == "조유리님 조용히하세요":
+    await message.channel.send(message.author.nick + "맞아요 좀 닥치세요")
 
 @client.event
 async def on_member_join(member):

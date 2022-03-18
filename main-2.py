@@ -24,14 +24,6 @@ async def on_message(message):
   if message.content == "설윤아 안녕":
     await message.channel.send(message.author.nick + "님 안녕하세요. 저는 NMIXX 설윤입니다!")
 
-@client.command()
-async def join(ctx)
-	if ctx.author.voice and ctx.author.voice.channel:
-    	channel = ctx.author.voice.channel
-    	await channel.connect()
-    else:
-    	await ctx.send("음성채널 없음")
-
 @client.event
 async def on_member_join(member):
 	await member.guild.get_channel(885875011800399912).send(member.mention + "님! 팡머시티에 오신 것을 안 환영합니다!")

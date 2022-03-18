@@ -26,5 +26,10 @@ async def on_message(message):
 
   print("윤채원:",client.user.name,"954369596956217395:",client.user.id,"01:",discord.__version__)
 
+@client.event
+async def on_member_join(member):
+	await member.guild.get_channel(885875011800399912).send(member.mention + "님! 팡머시티에 오신 것을 안 환영합니다!")
+	return
+
 
 client.run(os.environ['token'])

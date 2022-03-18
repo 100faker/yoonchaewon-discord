@@ -32,10 +32,10 @@ async def on_message(message):
     await message.channel.send("https://www.youtube.com/watch?v=Da4vIWM3H0Y")
 
   if message.content == "설윤아 사랑해":
-    await message.channel.send("저두요 :heart~1:")
+    await message.channel.send("저두요 :heart:")
 
   if message.content == "설윤아 사랑한다":
-    await message.channel.send("저도 사랑합니다 :heart~1:")
+    await message.channel.send("저도 사랑합니다 :heart:")
 
   print("윤채원:",client.user.name,"954369596956217395:",client.user.id,"01:",discord.__version__)
 

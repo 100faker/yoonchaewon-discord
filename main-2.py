@@ -24,12 +24,6 @@ async def on_message(message):
   if message.content == "설윤아 안녕":
     await message.channel.send(message.author.nick + "님 안녕하세요. 저는 NMIXX 설윤입니다!")
 
-  if message.content == "설윤아 자기소개 해봐":
-    await message.channel.send(message.author.nick + "님! 나무위키에 쳐 보시는 건 어떠신가요? ^__^")
-
-  if message.content == "조유리님 조용히 하세요":
-    await message.channel.send("맞아요 좀 닥치세요")
-
 @client.event
 async def on_member_join(member):
 	await member.guild.get_channel(885875011800399912).send(member.mention + "님! 팡머시티에 오신 것을 안 환영합니다!")

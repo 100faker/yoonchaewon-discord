@@ -24,6 +24,9 @@ async def on_message(message):
   if message.content == "설윤아 안녕":
     await message.channel.send(message.author.nick + "님 안녕하세요. 저는 NMIXX 설윤입니다!")
 
+  if message.content == "너 누구야":
+    await message.channel.send("https://namu.wiki/w/%EC%84%A4%EC%9C%A4")
+
 @client.event
 async def on_member_join(member):
 	await member.guild.get_channel(885875011800399912).send(member.mention + "님! 팡머시티에 오신 것을 안 환영합니다!")

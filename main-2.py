@@ -22,7 +22,7 @@ async def on_message(message):
     return
 
   if message.content == "설윤아 안녕":
-    await message.channel.send(message.author.nick + "님 안녕하세요. 저는 NMIXX 설윤입니다!")
+    await message.channel.send(message.author.nick + "님 저는 당신이 안 반가워요! :pinching_hand: :pinching_hand: :pinching_hand:")
 
 @client.event
 async def on_member_join(member):

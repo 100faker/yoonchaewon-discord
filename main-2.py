@@ -24,10 +24,8 @@ async def on_message(message):
   if message.content == "설윤아 안녕":
     await message.channel.send(message.author.nick + "님 저는 당신이 안 반가워요! :pinching_hand: :pinching_hand: :pinching_hand:")
 
-@client.event
-async def on_member_join(member):
-	await member.guild.get_channel(885875011800399912).send(member.mention + "님! 팡머시티에 오신 것을 안 환영합니다!")
-	return
+  if message.content == "설윤아 자기소개 해봐":
+    await message.channel.send("싫어요 :pinching_hand: :pinching_hand: :pinching_hand:")
 
   print("윤채원:",client.user.name,"954369596956217395:",client.user.id,"01:",discord.__version__)
 

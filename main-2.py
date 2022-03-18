@@ -21,11 +21,21 @@ async def on_message(message):
   if message.author == client.user:
     return
 
+
   if message.content == "설윤아 안녕":
     await message.channel.send(message.author.nick + "님 저는 당신이 안 반가워요! :pinching_hand: :pinching_hand: :pinching_hand:")
 
   if message.content == "설윤아 자기소개 해봐":
     await message.channel.send("싫어요 :pinching_hand: :pinching_hand: :pinching_hand:")
+
+  if message.content == "설윤 직캠":
+    await message.channel.send("https://www.youtube.com/watch?v=Da4vIWM3H0Y")
+
+  if message.content == "설윤아 사랑해":
+    await message.channel.send("저두요 :heart~1:")
+
+  if message.content == "설윤아 사랑한다":
+    await message.channel.send("저도 사랑합니다 :heart~1:")
 
   print("윤채원:",client.user.name,"954369596956217395:",client.user.id,"01:",discord.__version__)
 

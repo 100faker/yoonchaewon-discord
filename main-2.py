@@ -38,7 +38,7 @@ async def on_message(message):
     await message.channel.send("저도 사랑합니다 :heart:")
 
   if message.content == "설윤아 사귀자":
-    await message.channel.send("저는 이미 다른 사람이 있어:pinching_hand: :pinching_hand:")
+    await message.channel.send("저는 이미 다른 사람이 있어요 :pinching_hand: :pinching_hand:")
 
   if message.content == "설윤아 나랑 커피 한 잔 할래?":
     await message.channel.send("김광효 씨가 만든 커피는 마시기 싫어요")

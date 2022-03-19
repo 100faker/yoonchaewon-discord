@@ -43,6 +43,15 @@ async def on_message(message):
   if message.content == "설윤아 나랑 커피 한 잔 할래?":
     await message.channel.send("김광효 씨가 만든 커피는 마시기 싫어요")
 
+  if message.content == "설윤아":
+    await message.channel.send("네?")
+
+  if message.content == "설윤아 웃음이 나와?":
+    await message.channel.send("네! :smiley: :smiley: :smiley: :smiley:")
+
+  if message.content == "설윤아 몇살이야":
+    await message.channel.send("저는 2004년 1월 26일생이고, 만 18세입니다 ^^")
+
   print("윤채원:",client.user.name,"954369596956217395:",client.user.id,"01:",discord.__version__)
 
 client.run(os.environ['token'])

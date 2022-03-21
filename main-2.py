@@ -38,7 +38,25 @@ async def on_message(message):
     await message.channel.send("저도 사랑합니다 :heart:")
 
   if message.content == "설윤아 사귀자":
-    await message.channel.send("저는 이미 다른 사람이 있어요 :pinching_hand: :pinching_hand:")
+    await message.channel.send("고민이 좀 필요할 것 같아요~")
+
+  if message.content == "설윤아 결혼하자":
+    await message.channel.send("그건 검토를 좀 해봐야겠어요~ :raised_hand:")
+
+  if message.content == "설윤아아":
+    await message.channel.send("저는 아이스 아메리카노 좋아해요~")
+
+  if message.content == "설윤 이행시":
+    await message.channel.send("〈설〉 설윤은 〈윤〉 예쁘다")
+
+  if message.content == "설윤아 너 좋아해":
+    await message.channel.send("으악 :mask:")
+
+  if message.content == "설윤아 뭐하니":
+    await message.channel.send("우리 팬 분들 생각하고 있어요~")
+
+  if message.content == "설윤이 누구야":
+    await message.channel.send("나다")
 
   if message.content == "설윤아 나랑 커피 한 잔 할래?":
     await message.channel.send("김광효 씨가 만든 커피는 마시기 싫어요")

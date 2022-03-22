@@ -70,6 +70,12 @@ async def on_message(message):
   if message.content == "설윤아":
     await message.channel.send("네?")
 
+  if message.content == "설윤이 신고":
+    await message.channel.send("너무 예쁜 죄로 신고하겠다면.. 어쩔 수 없네요")
+
+  if message.content == "설윤이 혼인신고":
+    await message.channel.send("시X")
+
   if message.content == "설윤아 웃음이 나와?":
     await message.channel.send("네! :smiley: :smiley: :smiley: :smiley:")
 

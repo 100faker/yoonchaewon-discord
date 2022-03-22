@@ -64,6 +64,9 @@ async def on_message(message):
   if message.content == "설윤아 뭐하니":
     await message.channel.send("우리 팬 분들 생각하고 있어요~")
 
+  if message.content == "야이":
+    await message.channel.send("어쩔")
+
   if message.content == "설윤이 누구야":
     await message.channel.send("나다")
 

@@ -53,10 +53,13 @@ async def on_message(message):
     await message.channel.send("으악 :mask:")
 
   if message.content == "설윤아 광효가 너 좋아한데":
-    await message.channel.send("아 씨X :mask:")
+    await message.channel.send("아 씨X")
+
+  if message.content == "설윤아 나랑 게임할래":
+    await message.channel.send("싫어요")
 
   if message.content == "설윤아 너는 나 어때":
-    await message.channel.send("진짜 X같아요 :mask:")
+    await message.channel.send("저는 당신을 단 한 번도 생각해본 적 없어요 :thinking:")
 
   if message.content == "설윤아 뭐하니":
     await message.channel.send("우리 팬 분들 생각하고 있어요~")

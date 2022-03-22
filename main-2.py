@@ -59,7 +59,7 @@ async def on_message(message):
     await message.channel.send("김광X씨가 제 생각한다는데 그게 너무 킹받아요")
 
   if message.content == "설윤아 뭐해":
-    await message.channel.send(message.author.nick + "생각이요!")
+    await message.channel.send(message.author.nick + " 생각이요!")
 
   if message.content == "설윤아 나랑 게임할래":
     await message.channel.send("싫어요")

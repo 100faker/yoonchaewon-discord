@@ -100,6 +100,9 @@ async def on_message(message):
   if message.content == "설윤아 광효 어때":
     await message.channel.send("진짜 진짜 진짜 싫어요!!! :pinching_hand: :pinching_hand: :pinching_hand:")
 
+  if message.content == "윤석열":
+    await message.channel.send("설 설렘 가득한 윤 윤석열")
+
   if message.content == "자살":
     await message.channel.send("자살은 노노노! 제 직캠 보시고 힐링하세요 https://www.youtube.com/watch?v=0JEdfpvKm_4")
 
